@@ -75,6 +75,7 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 4351)
 
 
+<<<<<<< HEAD
 Started GET "/users/new" for ::1 at 2021-02-17 16:09:14 +0100
   [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -137,5 +138,57 @@ Processing by UsersController#new as HTML
 [Webpacker] Everything's up-to-date. Nothing to do
   Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 2991)
 Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 3370)
+=======
+Started GET "/users/new" for ::1 at 2021-02-17 16:02:22 +0100
+  [1m[35m (28.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+Started GET "/users/new" for ::1 at 2021-02-17 16:02:24 +0100
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 22.9ms | Allocations: 404)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 179)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1008.9ms | Allocations: 44294)
+  Rendered layout layouts/application.html.erb (Duration: 1031.2ms | Allocations: 44722)
+Completed 200 OK in 1285ms (Views: 1123.0ms | ActiveRecord: 0.0ms | Allocations: 50958)
+
+
+Completed 200 OK in 1069ms (Views: 1068.8ms | ActiveRecord: 0.0ms | Allocations: 46288)
+>>>>>>> 8ab14e14eb7b9f401a78355fa6198675e04ef733
+
+
+Started GET "/" for ::1 at 2021-02-17 16:34:21 +0100
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kene/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kene/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.5ms | Allocations: 336)
+Completed 200 OK in 109ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 2510)
+
+
+Started GET "/users/new" for ::1 at 2021-02-17 16:34:29 +0100
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 325.9ms | Allocations: 5127)
+Completed 200 OK in 340ms (Views: 330.0ms | ActiveRecord: 0.0ms | Allocations: 6268)
+
+
+Started GET "/users/new?username=yueyyueu&email=oifio%40ggd&password=[FILTERED]" for ::1 at 2021-02-17 16:38:14 +0100
+Processing by UsersController#new as HTML
+  Parameters: {"username"=>"yueyyueu", "email"=>"oifio@ggd", "password"=>"[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2995)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 3371)
 
 
