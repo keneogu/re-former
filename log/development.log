@@ -75,3 +75,25 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 4351)
 
 
+Started GET "/users/new" for ::1 at 2021-02-17 16:02:22 +0100
+  [1m[35m (28.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+Started GET "/users/new" for ::1 at 2021-02-17 16:02:24 +0100
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 22.9ms | Allocations: 404)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 179)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1008.9ms | Allocations: 44294)
+  Rendered layout layouts/application.html.erb (Duration: 1031.2ms | Allocations: 44722)
+Completed 200 OK in 1285ms (Views: 1123.0ms | ActiveRecord: 0.0ms | Allocations: 50958)
+
+
+Completed 200 OK in 1069ms (Views: 1068.8ms | ActiveRecord: 0.0ms | Allocations: 46288)
+
+
